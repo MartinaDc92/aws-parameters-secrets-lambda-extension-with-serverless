@@ -16,11 +16,11 @@ provider:
           Action:
             - secretsmanager:GetSecretValue
           Resource:
-            - 'arn:aws:secretsmanager:eu-north-1:{your-account-id}:secret:{your-secret-name}'
+            - 'arn:aws:secretsmanager:eu-north-1:{your-account-id}:secret:{your-secret-name}'    
 
 functions:
-  displaySecrets:
-    handler: src/displaySecrets/handler.displaySecrets
+  displaySecret:
+    handler: src/displaySecret/handler.displaySecret
     layers:
       - 'arn:aws:lambda:eu-north-1:427196147048:layer:AWS-Parameters-and-Secrets-Lambda-Extension:2'
     memorySize: 128
