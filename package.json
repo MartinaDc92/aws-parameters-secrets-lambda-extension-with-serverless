@@ -1,0 +1,22 @@
+{
+  "name": "aws-parameters-secrets-lambda-extension-with-serverless",
+  "version": "1.0.0",
+  "description": "A basic example about how to use new AWS parameters and secrets lambda extension with serverless framework.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "the-indie-coder",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.3",
+    "aws-sdk": "^2.1238.0",
+    "got": "^12.5.2",
+    "serverless": "^3.23.0",
+    "serverless-webpack": "^5.10.0",
+    "ts-loader": "^9.4.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
