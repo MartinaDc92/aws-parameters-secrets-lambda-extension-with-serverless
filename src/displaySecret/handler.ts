@@ -13,5 +13,5 @@ export const displaySecret = async () => {
         resolveBodyOnly: true
     }) as AWS.SecretsManager.GetSecretValueResponse;
 
-    console.log(secret.SecretString  as AWS.SecretsManager.SecretStringType  );
+    console.log(secret.SecretString );
 }
